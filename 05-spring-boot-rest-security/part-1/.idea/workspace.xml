@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdac3a32-00ce-44e8-b36f-f1c6c4af7958" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/demo/security/DemoSecurityConfig.java" afterDir="false" />
+    <list default="true" id="fdac3a32-00ce-44e8-b36f-f1c6c4af7958" name="Changes" comment="Add &quot;spring security&quot; feat">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +53,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/danie/Documents/dev-spring-boot/04-spring-boot-rest-crud/04-spring-boot-rest-crud-employee -with-spring-data-rest",
+    "last_opened_file_path": "C:/Users/danie/Downloads/spring-boot-3-spring-6-hibernate-for-begineers/06-spring-boot-spring-mvc/01-thymeleafdemo-helloworld/thymeleafdemo",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -90,8 +88,18 @@
       <workItem from="1709737352749" duration="737000" />
       <workItem from="1709812693664" duration="190000" />
       <workItem from="1711117157078" duration="138000" />
-      <workItem from="1711224960358" duration="226000" />
+      <workItem from="1711224960358" duration="884000" />
+      <workItem from="1711296081775" duration="272000" />
+      <workItem from="1711311497071" duration="143000" />
     </task>
+    <task id="LOCAL-00001" summary="Add &quot;spring security&quot; feat">
+      <created>1711225291330</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711225291330</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
