@@ -17,7 +17,32 @@
 
   <br><br>
 
-  <input type="submit" value="Submit">
+    Country:
+
+    <select th:field="*{country}">
+        <option th:each="tempCountry : ${countries}" th:value="${tempCountry}" th:text="${tempCountry}" />
+    </select>
+
+    <br><br>
+
+    Favorite Programming Language:
+
+  <input type="radio" th:field="*{favoriteLanguage}"
+         th:each="tempLang : ${languages}"
+         th:value="${tempLang}"
+         th:text="${tempLang}" />
+
+    <br><br>
+
+    Favorite Operating Systems:
+
+    <input type="checkbox" th:field="*{operatingSystems}" th:value="Linux">Linux</input>
+    <input type="checkbox" th:field="*{operatingSystems}" th:value="macOS">macOS</input>
+    <input type="checkbox" th:field="*{operatingSystems}" th:value="'Microsoft Windows'">Microsoft Windows</input>
+
+
+
+    <input type="submit" value="Submit">
 </form>
 
 </body>
