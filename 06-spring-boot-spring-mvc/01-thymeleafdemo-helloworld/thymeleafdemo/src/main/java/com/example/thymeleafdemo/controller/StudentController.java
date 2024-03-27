@@ -35,6 +35,9 @@ public class StudentController {
         // add the list of languages to the model
         theModel.addAttribute("languages", languages);
 
+        // add the list of operating systems to the model
+        theModel.addAttribute("operatingSystems", operatingSystems);
+
         return "student-form";
     }
 
