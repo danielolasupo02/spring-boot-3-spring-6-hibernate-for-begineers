@@ -5,10 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c63a73a-6ff5-42e7-b9d9-9a273f720456" name="Changes" comment="complete video @313 one-to-many mapping">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/cruddemo/CruddemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/cruddemo/CruddemoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/cruddemo/dao/AppDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/cruddemo/dao/AppDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/cruddemo/dao/AppDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/cruddemo/dao/AppDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/cruddemo/CruddemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/cruddemo/dao/AppDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/cruddemo/dao/AppDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/cruddemo/entity/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/cruddemo/entity/Instructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/cruddemo/entity/InstructorDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/cruddemo/entity/Review.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/luv2code/cruddemo/CruddemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-jpa-one-to-many/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03-jpa-one-to-many/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-jpa-one-to-many/src/main/java/com/luv2code/cruddemo/CruddemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03-jpa-one-to-many/src/main/java/com/luv2code/cruddemo/CruddemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-jpa-one-to-many/src/main/java/com/luv2code/cruddemo/dao/AppDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03-jpa-one-to-many/src/main/java/com/luv2code/cruddemo/dao/AppDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-jpa-one-to-many/src/main/java/com/luv2code/cruddemo/dao/AppDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03-jpa-one-to-many/src/main/java/com/luv2code/cruddemo/dao/AppDAOImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,17 +77,6 @@
   }
 }]]></component>
   <component name="RunManager" selected="Spring Boot.CruddemoApplication">
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CruddemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="02-jpa-one-to-one-bi" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.luv2code.cruddemo.CruddemoApplication" />
@@ -83,9 +91,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CruddemoApplication (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="04-jpa-one-to-many-uni" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.luv2code.cruddemo.CruddemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CruddemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ACTIVE_PROFILES" />
-      <module name="cruddemo" />
+      <module name="04-jpa-one-to-many-uni" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.luv2code.cruddemo.CruddemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -110,7 +125,8 @@
       <workItem from="1714127847102" duration="1182000" />
       <workItem from="1714131015565" duration="1113000" />
       <workItem from="1714251442254" duration="4148000" />
-      <workItem from="1714392244348" duration="9593000" />
+      <workItem from="1714392244348" duration="8979000" />
+      <workItem from="1714464892010" duration="6299000" />
     </task>
     <task id="LOCAL-00001" summary="complete video @288 one-to-one mapping unidirectional">
       <created>1713790754783</created>
