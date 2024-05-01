@@ -4,8 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c63a73a-6ff5-42e7-b9d9-9a273f720456" name="Changes" comment="complete video @321 one-to-many mapping">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/cruddemo/entity/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/cruddemo/entity/Course.java" afterDir="false" />
+    <list default="true" id="9c63a73a-6ff5-42e7-b9d9-9a273f720456" name="Changes" comment="complete video @313 one-to-many mapping">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/cruddemo/CruddemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/cruddemo/dao/AppDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/cruddemo/dao/AppDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/cruddemo/entity/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/cruddemo/entity/Instructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/cruddemo/entity/InstructorDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/cruddemo/entity/Review.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/cruddemo/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/luv2code/cruddemo/CruddemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-jpa-one-to-many-uni/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-jpa-one-to-many-uni/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-jpa-one-to-many-uni/src/main/java/com/luv2code/cruddemo/entity/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-jpa-one-to-many-uni/src/main/java/com/luv2code/cruddemo/entity/Course.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,9 +102,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CruddemoApplication (4)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="05-jpa-many-to-many" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.luv2code.cruddemo.CruddemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CruddemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ACTIVE_PROFILES" />
-      <module name="04-jpa-one-to-many-uni" />
+      <module name="05-jpa-many-to-many" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.luv2code.cruddemo.CruddemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -104,7 +137,8 @@
       <workItem from="1714131015565" duration="1113000" />
       <workItem from="1714251442254" duration="4148000" />
       <workItem from="1714392244348" duration="8979000" />
-      <workItem from="1714464892010" duration="7392000" />
+      <workItem from="1714464892010" duration="6299000" />
+      <workItem from="1714520950359" duration="8956000" />
     </task>
     <task id="LOCAL-00001" summary="complete video @288 one-to-one mapping unidirectional">
       <created>1713790754783</created>
@@ -120,14 +154,7 @@
       <option name="project" value="LOCAL" />
       <updated>1714461066283</updated>
     </task>
-    <task id="LOCAL-00003" summary="complete video @321 one-to-many mapping">
-      <created>1714487646807</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1714487646807</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,7 +175,6 @@
     <MESSAGE value="complete video @288 - one to one unidirectional mapping" />
     <MESSAGE value="complete video @288 one-to-one mapping unidirectional" />
     <MESSAGE value="complete video @313 one-to-many mapping" />
-    <MESSAGE value="complete video @321 one-to-many mapping" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete video @321 one-to-many mapping" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete video @313 one-to-many mapping" />
   </component>
 </project>
