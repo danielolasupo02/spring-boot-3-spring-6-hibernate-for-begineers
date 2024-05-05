@@ -10,9 +10,11 @@ public class MyDemoLoggingAspect {
     // this is where we add all of our related advice for logging
 
 
-    // let's start with an @Before advice
-    @Before("execution(public void addAccount())")
+     //let's start with an @Before advice
+//    @Before("execution(public void add*())")
+
+    @Before("execution(void add*(com.luv2code.appdemo.Account, ..))")
     public void beforeAddAccountAdvice() {
-        System.out.println("n=====>>>> Executing @Before advice on addAccount()");
+        System.out.println("\n=====>>>> Executing @Before advice on method");
     }
 }
